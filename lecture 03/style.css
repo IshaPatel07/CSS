@@ -1,0 +1,38 @@
+.para{
+    color: rgb(200, 98, 247);
+    font-size: 35px;
+    font-family: "Delius Swash Caps", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.p2{
+    color: red;
+    font-size: 40px;
+}
+.ic{
+    color: black;
+    font-size: 40px;
+}
+
+.button{
+    height: 40px;
+    width: 100px;
+    background-color: purple;
+    border-radius: 8px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-family: "Monoton", sans-serif;
+}
+
+.para2{
+     
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+}
+
+
