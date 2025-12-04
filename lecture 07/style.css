@@ -1,0 +1,64 @@
+ *{
+    margin: 0;
+    padding: 0;
+   /* text-align: center;*/
+ }
+
+ .A1{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(210, 210, 210);
+    border-radius: 20px;
+    border: 3px solid black;
+    margin: 10px;
+ }
+
+ div p:first-child{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    
+ }
+
+div .p1::first-letter{
+    font-size: 55px;
+    color: brown;
+    font-style: italic;
+}
+
+.p2{
+    font-size: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+::selection{
+    background-color: yellow;
+    color: black;
+}
+
+.line-box1{
+    height: 40px;
+    width: 80%;
+    background-color: rgb(144, 232, 144);
+    margin-top: 65px;
+    margin-left: 30PX;
+    text-align: center;
+    border: 5PX SOLID aqua;
+    text-align: left;
+    font-size: 21px;
+    align-content: center;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.p3{
+    height: 24px;
+    width: 100%;
+    background-color: rgb(242, 242, 197);
+    margin-left: 25px;
+    border-left: 5px solid orangered;
+    padding-top: 8px;
+}
+
