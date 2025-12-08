@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    height: 37vh;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.h1{
+    font-size: 20px;
+}
