@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.task{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(111, 214, 155);
+    margin-bottom: 20px;
+}
+
+.heading{
+    font-size: 30px;
+    height: 110px;
+    width: 100%;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    text-align: center;
+
+}
+
+.heading p{
+    margin-top: 15px;
+    font-size: 22px;
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.output{
+    display: flex;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(124, 13, 208);
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.heading1{
+    height: 200px;
+    width: 100%;
+}
+
+.nonwrap{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrap-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
