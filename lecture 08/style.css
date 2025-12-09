@@ -1,7 +1,9 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin:0px;
+    padding-left: 4px;
+    padding-right: 4px;
     box-sizing: border-box;
+    
 }
 
 .header{
@@ -15,5 +17,68 @@
 }
 
 .h1{
-    font-size: 20px;
+    font-size: 40px;
+    line-height: 2;
 }
+
+.profile-header {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.profile-card{
+    
+    height: 220px;
+    width: 250px;
+    border-radius: 7px;
+    background-color: rgb(224, 224, 224);
+    float: left;
+    margin: -2px;
+    margin-top: 5px;
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.profile-card:hover {
+  transform: scale(1.05) rotate(1deg);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.img{
+    height: 110px;
+    width: 120px;
+    margin-left: 55px;
+    margin-top: 20px;
+    border-radius: 100%;
+    text-align: center;
+    
+    
+}
+
+.a{
+    font-size: 25px;
+    width: bold;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.b{
+    font-size: 13px;
+    margin-left: 58px;
+    color: grey;
+    
+}
+
+.flash-header {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    display: block;
+    margin-top: 260px; 
+}
+
+
