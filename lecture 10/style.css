@@ -35,6 +35,7 @@ body{
 }
 
 .output{
+    height: 350px;
     display: flex;
 }
 
@@ -91,7 +92,12 @@ body{
     flex-direction: row-reverse;
 }
 
-.colum{
-    display: flex;
-    flex-flow: column wrap;
+.column{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.column-reverce{
+     flex-direction: column;
+    flex-wrap: wrap-reverse;
 }
