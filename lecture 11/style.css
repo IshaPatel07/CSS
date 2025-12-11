@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+}
+
+.task{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(152, 251, 228);
+    margin-bottom: 20px;
+}
+
+.heading{
+    font-size: 30px;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    text-align: center;
+
+}
+
+.heading p{
+    margin-top: 15px;
+    font-size: 24px;
+    width: 100%;
+    text-align: left;
+    padding-left: 50px;
+    text-align: center;
+    color: rgb(25, 128, 0);
+}
+
+.output{
+    height: 350px;
+    display: flex;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(90, 33, 189);
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}
+
+.heading1{
+    height: 150px;
+    width: 100%;
+    color: rgb(37, 84, 2);
+    margin-bottom: 20px;
+     background-color: rgb(254, 183, 39);
+    
+}
+
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.Align-flex-start{
+    align-items: flex-start;
+}
+
+.Align-flex-end{
+    align-items: flex-end;
+}
+
+.Align-center{
+    align-items: center;
+}
+
+.Align-stretch{
+    align-items: stretch;
+}
+
+.contant-flex-start{
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.contant-flex-end{
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+.contant-center{
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.contant1{
+    flex-wrap: wrap;
+    align-content: space-between;
+}
