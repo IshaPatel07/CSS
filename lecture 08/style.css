@@ -82,3 +82,19 @@
 }
 
 
+.flash-card{
+    height: 200px;
+    width: 300px;
+    background-color: rgb(244, 244, 63);
+    border-radius: 8px;
+    margin: 7px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec2{
+    height: 300px;
+    width: 100%;
+    display: flex;
+
+}
