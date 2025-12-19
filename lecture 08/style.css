@@ -177,10 +177,41 @@ body{
     position: relative;
     top: 380px;
     left: 150px;
-    height: 35px;
-    width: 120px;
+    height: 45px;
+    width: 160px;
     border-radius: 50px;
     background-color: #028dce;
     border: none;
-    border-style: ;
+    color: white;
+    font-size: 19px;
+    font-weight: 400px;
+}
+
+.slide:hover{
+    background-color: #026bb0;
+    cursor: pointer;
+    background: linear-gradient(45deg, #026bb0, #006593);
+     transform: scale(1.1);
+}
+
+.glow{
+    position: relative;
+    top: 380px;
+    left: 250px;
+    height: 45px;
+    width: 160px;
+    border-radius: 50px;
+    background-color: #a537dc;
+    border: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 400px;
+}
+
+.glow:hover{
+    background-color: #026bb0;
+    cursor: pointer;
+    background: linear-gradient(45deg, #ce8dff, #b366bc, hsl(306, 100%, 82%));
+     transform: scale(1.1);
+     box-shadow: 0 0 15px hsl(306, 100%, 20%);
 }
