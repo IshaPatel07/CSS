@@ -1,0 +1,149 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #00050D;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.nav-bar{
+    height: 70px;
+    position: fixed;
+    backdrop-filter: blur(14px);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0px 8px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    padding: 0px 10px;
+    color: rgb(255, 255, 255);
+    font-weight: 900px;
+    font-size: 19px;
+}
+
+.nav-bar a:hover {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+}
+
+
+.right-nav a:hover{
+    padding: 0px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join{
+    background-color: #187DCC;
+    border-radius: 8px;
+    height: 33px;
+    width: 94px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
+}
+
+.image{
+    height: 20px;
+    width: 100px;
+    margin-right: 25px;
+}
+
+.left-nav,
+.right-nav{
+    display: flex;
+    align-items: center;
+}
+
+.section-1{
+    height: 100vh;
+    width: 100%;
+}
+
+.trailar{}
+
+.section-1 .trailar{
+    height: 89vh;
+    width: 100%;
+    background-image: url(./img/thama2.jpg);
+    color: white;
+}
+
+.trailar p{
+    font-size: 25px;
+}
+
+.one{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(152, 255, 152);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+
+.trailar button{
+    height: 70px;
+    width: 130px;
+    background-color: rgba(255, 255, 255, 0.3);
+     backdrop-filter: blur(100%);
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.trailar button:hover{
+    padding: 8px 8px;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+}
+
+.trailar a{
+    padding: 18px 18px;
+    background-color: #706e6e;
+    backdrop-filter: blur(100%);
+    border-radius: 100px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    text-decoration: none;
+}
+
+
+.trailar a:hover{
+    background-color: white;
+    color: black;
+    padding: 23px 23px;
+}
+
+.trailar img{
+    height: 80px;
+    position: relative;
+    top: 200px;
+    left: 1100px;
+}
