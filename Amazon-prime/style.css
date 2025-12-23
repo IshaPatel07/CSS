@@ -83,7 +83,7 @@ nav{
 .section-1{
     margin-top: 70px;
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-image: url(./img/section-1.jpg);
     color: white;
@@ -97,11 +97,11 @@ nav{
 }
 
 .section h1{
-    font-size: 45px;
+    font-size: 40px;
 }
 
 .section p{
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .section button{
@@ -123,8 +123,77 @@ nav{
     margin-top: -28px;
     color: white;
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
     width: 100%;
     background-image: url(./img/section-2.jpg);
 }
 
+.section-3{
+    display: flex;
+    margin-top: 10px;
+    color: white;
+    background-size: cover;
+    height: 73vh;
+    width: 100%;
+}
+
+.section-3-left{
+    width: 50%;
+}
+.section-3-right{
+    width: 50%;
+}
+
+.section-3-right img{
+    height: 200px;
+    border-radius: 10px;
+    padding: 3px ;
+}
+
+.section-3-right img:hover{
+    box-shadow: 3px 3px 30px 3px grey;
+}
+
+.section-3-left h1{
+    position: relative;
+    top: 100px;
+    left: 60px;
+    font-size: 50px;
+}
+.section-3-left p{
+    position: relative;
+    top: 100px;
+    left: 60px;
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030;
+    padding: 20px 0px;
+}
+
+footer .footer-value img{
+   height: 35px;
+   position: relative;
+   left: 150px;
+}
+
+footer .footer-value a{
+    text-decoration: none;
+    color: #85DFFE;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+footer .footer-value p{
+    text-decoration: none;
+    color: #bac1c4;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    left: 15px;
+}
