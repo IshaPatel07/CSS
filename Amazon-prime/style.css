@@ -5,7 +5,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background-color: black;
+    background-color: #00050D;
     margin: 0px;
     padding: 0px;
 }
@@ -17,10 +17,11 @@ nav{
 }
 
 .nav-bar{
+    height: 70px;
     position: fixed;
     backdrop-filter: blur(14px);
     background: rgba(0, 0, 0, 0.5);
-    padding: 18px 8px;
+    padding: 0px 8px;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -32,14 +33,38 @@ nav{
     text-decoration: none;
     padding: 0px 10px;
     color: rgb(255, 255, 255);
-    font-weight: 600px;
+    font-weight: 900px;
+    font-size: 19px;
+}
+
+.nav-bar a:hover {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+}
+
+
+.right-nav a:hover{
+    padding: 0px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .join{
     background-color: #187DCC;
-    border-radius: 5px;
-    height: 25px;
-    width: 90px;
+    border-radius: 8px;
+    height: 33px;
+    width: 94px;
+    text-align: center;
+    align-content: center;
+    cursor: pointer;
 }
 
 .image{
@@ -56,19 +81,50 @@ nav{
 
 
 .section-1{
+    margin-top: 70px;
     background-size: cover;
     height: 100vh;
     width: 100%;
     background-image: url(./img/section-1.jpg);
+    color: white;
 }
+
+.section-contant{
+    position: relative;
+    top: 90px;
+    left: 60px;
+    line-height: 1.3;
+}
+
+.section h1{
+    font-size: 45px;
+}
+
+.section p{
+    font-size: 23px;
+}
+
+.section button{
+    height: 60px;
+    width: 190px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    transition: transform 0.5s;
+}
+
+.section button:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
 .section-2{
+    margin-top: -28px;
+    color: white;
     background-size: cover;
     height: 100vh;
     width: 100%;
     background-image: url(./img/section-2.jpg);
 }
 
-.p{
-    color: white;
-    font-size: 50px;
-}
