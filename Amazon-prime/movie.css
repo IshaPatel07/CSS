@@ -234,13 +234,13 @@ nav{
     color: white;
 }
 
-.img-1{
-    
+.img-1{ 
     height: 200px;
     width: 300px;
-    background-color: green;
-    background-image: url(./img/movie-1.jpg);
-     border-radius: 10px;
-    background-size: cover;
-   
+    border-radius: 10px;
+    position: relative;
+    top: 50px;
+    right: 250px;
+    background-image: url(./img/movie-1.jpg); 
+    background-size: cover; 
 }
