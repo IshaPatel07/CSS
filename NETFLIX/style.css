@@ -204,6 +204,7 @@ body{
     right: 1510px;
     top: 150px;
     color: white;
+    border: 2px solid black;
 }
 .num2{
     font-size: 180px;
