@@ -1,0 +1,331 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+}
+
+.section-1{
+    position: relative;
+    bottom: 20px;
+    left: 70px;
+    height: 80vh;
+    width: 90%;
+    background-image: url(./img/backgraund.jpg);
+    background-size: cover;
+    
+}
+
+.section-1 .sec-1{
+    height: 80vh;
+    width: 100%;
+    background-color: rgba(44, 43, 43, 0.5);
+}
+
+.nav img{
+    color: rgb(255, 255, 255);
+    height: 200px;
+    position: relative;
+    left: 50px;
+}
+
+.nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    bottom: 130px;
+    left: 430px;
+}
+
+.nav a:hover{
+    color: rgb(159, 0, 27);
+    transform: scale(00.5s);
+}
+
+.search{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 40px;
+    bottom: 155px;
+}
+
+.search button{
+    background-color: rgb(209, 125, 153);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 10px;
+}
+
+.con{
+    display: flex;
+    justify-content: end;
+}
+
+.con .contant{
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    right: 0px;
+    
+}
+
+.con .but-1{
+    background-color: rgb(194, 59, 104);
+    border: none;
+    border-radius: 0px;
+    position: relative;
+    right: 300px;
+    top: 130px;
+    height: 50px;
+    width: 110px;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con .but-2{
+     background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 0px;
+    position: relative;
+    right: 290px;
+    top: 130px;
+    height: 50px;
+    width: 110px;
+    border-radius: 5px;
+    color: rgb(194, 59, 104);
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.airo{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: rgb(194, 59, 104);
+    position: relative;
+    right: 1600px;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.airo-1{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    color: rgb(194, 59, 104);
+    position: relative;
+    right: 1650px;
+    top: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2{
+    height: 70vh;
+    width: 90%;
+    position: relative;
+    left: 70px;
+}
+
+.left img{
+    height: 500px;
+    width: 600px;
+    position: relative;
+    left: 150px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.left .cut{
+    height: 250px;
+    width: 300px;
+    position: relative;
+    right: 0px;
+    bottom: 170px;
+    background-image: url(./img/designer.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.left .cut-1{
+    height: 150px;
+    width: 200px;
+    position: relative;
+    left: 650px;
+    bottom: 690px;
+    background-image: url(./img/designer-1.jpg);
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.right p{
+    font-size: 30px;
+    color: rgb(194, 59, 104);
+    position: relative;
+    bottom: 850px;
+    display: flex;
+    justify-content: end;
+    right: 600px;
+}
+
+.ri-circle-fill{
+    font-size: 20px;
+    position: relative;
+    top: 35px;
+    right: -30px;
+}
+
+.ri-separator{
+    font-size: 50px;
+    position: relative;
+    top: 30px;
+    left: 80px;
+}
+
+.contant-2{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 800px;
+    display: flex;
+    justify-content: end;
+    right: 340px;
+}
+.contant-3{
+    font-size: 20px;
+    color: rgb(109, 101, 101);
+    position: relative;
+    bottom: 780px;
+    display: flex;
+    justify-content: end;
+    right: 160px;
+}
+
+.contant-4{
+    font-size: 20px;
+    color: rgb(109, 101, 101);
+    position: relative;
+    bottom: 675px;
+    display: flex;
+    justify-content: end;
+    right: 600px;
+}
+
+.contant-5{
+    font-size: 50px;
+    color: rgb(194, 59, 104);
+    position: relative;
+    bottom: 750px;
+    display: flex;
+    justify-content: end;
+    right: 650px;
+}
+.contant-6{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: 820px;
+    display: flex;
+    justify-content: end;
+    right: 320px;
+}
+
+.ri-check-fill{
+    font-size: 30px;
+    color: rgb(194, 59, 104);
+  
+}
+
+.section-3{
+    height: 65vh;
+    width: 90%;
+    position: relative;
+    left: 70px;
+    background-color: rgb(226, 223, 223);
+}
+
+.section-3 p{
+    font-size: 22px;
+    color: rgb(241, 55, 117);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    left: 400px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    top: 100px;
+}
+
+.box-1{
+    height: 400px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    color: rgb(241, 55, 117);
+}
+
+.box-1 span{
+    font-size: 25px;
+    font-weight: 600;
+    position: relative;
+    top: 90px;
+    right: 30px;
+    color: black;
+}
+.box-2{
+    height: 400px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+}
+.box-3{
+     height: 400px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+   
+}
+.box-4{
+    height: 400px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+}
