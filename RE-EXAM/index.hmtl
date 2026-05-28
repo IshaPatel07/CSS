@@ -4,14 +4,301 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
     <title>Monito</title>
+     <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css"
+    rel="stylesheet"/>
     
 </head>
 <body>
 <section  class="section-1">
-    
+    <div class="top"><div class="nav">
+        <img src="./img/logo.svg" alt="" class="logo">
+            <a  class="nav-tag">Home</a>
+            <a  class="nav-tag">Dogs</a>
+            <a  class="nav-tag">About</a>
+            <a  class="nav-tag">Contact</a>
+    </div>
+    <div class="nav-left">
+        <p class="search"> <i class="ri-search-line"></i> search somthing here!</p>
+        <p class="join">join the community</p>
+    </div>
+</div>
+    <div class="top-sec-1">
+        <div class="sec-1"><span class="fist-line">One more friend</span>
+                <span class="sec-line">Thousands more fun!</span>
+               <span class="pera"> Having a pet means you have more joy, a new friend, a happy person who will always be with you to have fun. We have 200+ different pets that can meet your needs!</span>
+
+               <div class="V-E-btn">
+                <p class="view">View intro<i class="ri-play-circle-line"></i></p>
+                <p class="explor">Explor now<i class="ri-play-circle-line"></i></p>
+               </div>
+            </div>
+            <div class="top-sec-2">
+                <img src="./img/hero-image.png" alt="">
+            </div>
+    </div>
 
 </section>
     
+<section class="section-2">
+    <div class="sec-2-top">
+        <div class="sec-2-left">
+        <p class="t-1">what's new</p>
+        <p class="t-2">Take A look al some of our pets</p>
+    </div>
+    <div class="sec-2-right">
+        <p class="more">View more<i class="ri-arrow-right-s-line"></i></p>
+    </div>
+</section>
+
+<section class="section-3">
+    <div class="sec-3-top">
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/d-1.png" alt=""></div>
+            <p class="card-text-1 card-text">MO231-Pomeranian white</p>
+            <p class="card-text-2 card-text">Gene:Male </p>
+            <p class="card-text-4 card-text">Age:02 Month</p>
+            <p class="card-text-3 card-text">6.900 000 VND</p>
+        </div>
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/d-2.png" alt=""></div>
+            <p class="card-text-1 card-text">MO231-Pomeranian white</p>
+            <p class="card-text-2 card-text">Gene:Male </p>
+            <p class="card-text-4 card-text">Age:02 Month</p>
+            <p class="card-text-3 card-text">6.900 000 VND</p>
+        </div>
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/d-3.png" alt=""></div>
+            <p class="card-text-1 card-text">MO231-Pomeranian white</p>
+            <p class="card-text-2 card-text">Gene:Male </p>
+            <p class="card-text-4 card-text">Age:02 Month</p>
+            <p class="card-text-3 card-text">6.900 000 VND</p>
+        </div>
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/d-4.png" alt=""></div>
+            <p class="card-text-1 card-text">MO231-Pomeranian white</p>
+            <p class="card-text-2 card-text">Gene:Male </p>
+            <p class="card-text-4 card-text">Age:02 Month</p>
+            <p class="card-text-3 card-text">6.900 000 VND</p>
+        </div>
+    </div>
+    <div class="sec-3-top">
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/d-5.png" alt=""></div>
+            <p class="card-text-1 card-text">MO231-Pomeranian white</p>
+            <p class="card-text-2 card-text">Gene:Male </p>
+            <p class="card-text-4 card-text">Age:02 Month</p>
+            <p class="card-text-3 card-text">6.900 000 VND</p>
+        </div>
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/d-6.png" alt=""></div>
+            <p class="card-text-1 card-text">MO231-Pomeranian white</p>
+            <p class="card-text-2 card-text">Gene:Male </p>
+            <p class="card-text-4 card-text">Age:02 Month</p>
+            <p class="card-text-3 card-text">6.900 000 VND</p>
+        </div>
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/d-7.png" alt=""></div>
+            <p class="card-text-1 card-text">MO231-Pomeranian white</p>
+            <p class="card-text-2 card-text">Gene:Male </p>
+            <p class="card-text-4 card-text">Age:02 Month</p>
+            <p class="card-text-3 card-text">6.900 000 VND</p>
+        </div>
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/d-8.png" alt=""></div>
+            <p class="card-text-1 card-text">MO231-Pomeranian white</p>
+            <p class="card-text-2 card-text">Gene:Male </p>
+            <p class="card-text-4 card-text">Age:02 Month</p>
+            <p class="card-text-3 card-text">6.900 000 VND</p>
+        </div>
+    </div>
+    
+</section>
+
+<section class="section-4">
+    <div class="sec-4-img">
+        <img src="./img/Banner.png" alt="">
+    </div>
+</section>
+<section class="section-5">
+    <div class="sec-2-top">
+        <div class="sec-2-left">
+        <p class="t-1">Hard to choose right products for your pet</p>
+        <p class="t-2">our products</p>
+    </div>
+    <div class="sec-2-right">
+        <p class="more">View more<i class="ri-arrow-right-s-line"></i></p>
+    </div> 
+</section>
+<section class="section-6">
+    <div class="sec-3-top">
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/first.png" alt="""></div>
+            <p class="card-text-1 card-text">Reflex plus adult catsalmon</p>
+            <p class="card-text-2 card-text">Product : dog Food </p>
+            <p class="card-text-4 card-text">size : 358gm</p>
+            <p class="card-text-3 card-text">prize:140.00 VND</p>
+            <p></p>
+        </div>
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/sec.png" alt=""></div>
+            <p class="card-text-1 card-text">Reflex plus adult catsalmon</p>
+            <p class="card-text-2 card-text">Product : dog Food </p>
+            <p class="card-text-4 card-text">size : 358gm</p>
+            <p class="card-text-3 card-text">prize:140.00 VND</p>
+        </div>
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/third.png" alt=""></div>
+            <p class="card-text-1 card-text">Reflex plus adult catsalmon</p>
+            <p class="card-text-2 card-text">Product : dog Food </p>
+            <p class="card-text-4 card-text">size : 358gm</p>
+            <p class="card-text-3 card-text">prize:140.00 VND</p>
+        </div>
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/fourth.png" alt=""></div>
+            <p class="card-text-1 card-text">Reflex plus adult catsalmon</p>
+            <p class="card-text-2 card-text">Product : dog Food </p>
+            <p class="card-text-4 card-text">size : 358gm</p>
+            <p class="card-text-3 card-text">prize:140.00 VND</p>
+        </div>
+    </div>
+    <div class="sec-3-top">
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/5.png" alt=""></div>
+            <p class="card-text-1 card-text">Reflex plus adult catsalmon</p>
+            <p class="card-text-2 card-text">Product : dog Food </p>
+            <p class="card-text-4 card-text">size : 358gm</p>
+            <p class="card-text-3 card-text">prize:140.00 VND</p>
+            <p></p>
+        </div>
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/6.png" alt=""></div>
+            <p class="card-text-1 card-text">Reflex plus adult catsalmon</p>
+            <p class="card-text-2 card-text">Product : dog Food </p>
+            <p class="card-text-4 card-text">size : 358gm</p>
+            <p class="card-text-3 card-text">prize:140.00 VND</p>
+        </div>
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/7.png" alt=""></div>
+            <p class="card-text-1 card-text">Reflex plus adult catsalmon</p>
+            <p class="card-text-2 card-text">Product : dog Food </p>
+            <p class="card-text-4 card-text">size : 358gm</p>
+            <p class="card-text-3 card-text">prize:140.00 VND</p>
+        </div>
+        <div class="card-box">
+            <div class="card-img"><img class="in-img" src="./img/8.png" alt=""></div>
+            <p class="card-text-1 card-text">Reflex plus adult catsalmon</p>
+            <p class="card-text-2 card-text">Product : dog Food </p>
+            <p class="card-text-4 card-text">size : 358gm</p>
+            <p class="card-text-3 card-text">prize:140.00 VND</p>
+        </div>
+    </div>
+</section>
+
+<section class="section-2">
+    <div class="sec-2-top">
+        <div class="sec-2-left">
+        <p class="t-1">Product to be part of</p>
+        <p class="t-2">Pet sellers</p>
+    </div>
+    <div class="sec-2-right">
+        <p class="more">View all our seelers<i class="ri-arrow-right-s-line"></i></p>
+    </div>
+</section>
+
+<section class="section-7">
+    <div class="sec-7-img">
+        <div class="seller-img"><img src="./img/s-1.png" alt=""></div>
+        <div class="seller-img"><img src="./img/s-2.png" alt=""></div>
+        <div class="seller-img"><img src="./img/s-3.png" alt=""></div>
+        <div class="seller-img"><img src="./img/s-4.png" alt=""></div>
+        <div class="seller-img"><img src="./img/s-5.png" alt=""></div>
+        <div class="seller-img"><img src="./img/s-6.png" alt=""></div>
+        <div class="seller-img"><img src="./img/s-7.png" alt=""></div>
+    </div>
+</section>
+
+<section class="section-4">
+    <div class="sec-4-img">
+        <img src="./img/dog-banner.png" alt="">
+    </div>
+</section>
+
+<section class="section-2">
+    <div class="sec-2-top">
+        <div class="sec-2-left">
+        <p class="t-1">you already know</p>
+        <p class="t-2">usefull pet knowledge</p>
+    </div>
+    <div class="sec-2-right">
+        <p class="more">View more<i class="ri-arrow-right-s-line"></i></p>
+    </div>
+</section>
+
+<section class="section-8">
+    <div class="sec-8">
+        <div class="sec-8-card">
+            <div class="img-last">
+                <img src="./img/last-1.png" alt="">
+                <p class="know">pet knowledge</p>
+                <p class="card-text-1 card-text">What is a pomeranian ? How to identify pomeranian Dogs.</p>
+                <p class="card-text-4 card-text">The Pomeranian, also known as the Pomeranian (Pom dog), is always in the top of the cutest pets. Not only that, the small, lovely, smart, friendly, and skillful circus dog breed.</p>
+            </div>
+        </div>
+        <div class="sec-8-card">
+            <div class="img-last">
+                <img src="./img/last-2.png" alt="">
+                <p class="know">pet knowledge</p>
+                <p class="card-text-1 card-text">What is a pomeranian ? How to identify pomeranian Dogs.</p>
+                <p class="card-text-4 card-text">The Pomeranian, also known as the Pomeranian (Pom dog), is always in the top of the cutest pets. Not only that, the small, lovely, smart, friendly, and skillful circus dog breed.</p>
+            </div>
+        </div>
+        <div class="sec-8-card">
+            <div class="img-last">
+                <img src="./img/last-3.png" alt="">
+                <p class="know">pet knowledge</p>
+                <p class="card-text-1 card-text">What is a pomeranian ? How to identify pomeranian Dogs.</p>
+                <p class="card-text-4 card-text">The Pomeranian, also known as the Pomeranian (Pom dog), is always in the top of the cutest pets. Not only that, the small, lovely, smart, friendly, and skillful circus dog breed.</p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="section-9">
+    <div class="sec-9">
+        <div class="register">
+            <div class="reg-email">
+                <p class="reg-text">Register now so you don't miss our programs</p>
+                <div class="white">
+                    <input type="text" class="input-email" placeholder="Enter your email">
+                    <button class="reg-btn">Subscrib now </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="ab">
+        <a class="text-l-c" >Home</a>
+        <a class="text-l-c" >About</a>
+        <a class="text-l-c" >Category</a>
+        <a class="text-l-c" >Contect</a>
+        </div>
+        <div class="logo">
+            <p class="logo-tx" ><i class="ri-facebook-circle-line"></i></p>
+            <p class="logo-tx" ><i class="ri-twitter-line"></i></p>
+            <p class="logo-tx" ><i class="ri-instagram-line"></i></p>
+            <p class="logo-tx" ><i class="ri-youtube-fill"></i></p>
+        </div>
+    </div>
+    <hr class="line">
+    
+
+</section>
+
+
 </body>
 </html>
